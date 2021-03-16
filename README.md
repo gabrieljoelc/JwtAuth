@@ -13,14 +13,16 @@ Prerequisites:
 - Azure Function runtime
 - Visual Studio, Jetbrains Rider, or Azure Function CLI
 
-1. Start the `JwtAuth.FunctionDemo` project.
-2. Send a request with Postman or `curl` like:
+1. Copy `JwtAuth.FunctionDemo/local.settings.dist.json` to `JwtAuth.FunctionDemo/local.settings.json`
+2. Fill-out your identity server values in `JwtAuth.FunctionDemo/local.settings.json`
+3. Start the `JwtAuth.FunctionDemo` project.
+4. Send a request with Postman or `curl` like:
 
 ```
 curl http://localhost:7071/api/Client
 ```
 
-3. You should see a JSON response body like this:
+4. You should see a JSON response body like this:
 
 ```
 {
