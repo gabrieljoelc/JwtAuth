@@ -7,6 +7,16 @@ This has client and server examples for:
 
 Note: This is likely mostly a Keycloak specific implementation but I'm not entirely sure.
 
+## Highlights
+
+As you explore the code, start with these classes in mostly this order:
+
+1. [JwtAuth.FunctionDemo.ClientServer](https://github.com/gabrieljoelc/JwtAuth/blob/main/JwtAuth.FunctionDemo/ClientServer.cs)
+2. [JwtAuth.FunctionDemo.Startup](https://github.com/gabrieljoelc/JwtAuth/blob/main/JwtAuth.FunctionDemo/Startup.cs)
+3. [JwtAuth.Core.DefaultJwtFetcher](https://github.com/gabrieljoelc/JwtAuth/blob/main/JwtAuth.Core/DefaultJwtFetcher.cs)
+4. [JwtAuth.Http.NetHttpAuthorizer](https://github.com/gabrieljoelc/JwtAuth/blob/main/JwtAuth.Http/NetHttpAuthorizer.cs)
+5. [JwtAuth.Core.DefaultJwtValidator](https://github.com/gabrieljoelc/JwtAuth/blob/main/JwtAuth.Core/DefaultJwtValidator.cs)
+
 ## Getting started
 
 Prerequisites:
@@ -22,7 +32,7 @@ Prerequisites:
 curl http://localhost:7071/api/Client
 ```
 
-4. You should see a JSON response body like this:
+5. You should see a JSON response body like this:
 
 ```
 {
