@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "JwtClientConfig:TokenUrl": "https://my-identity-server-keycloak-example.com/auth/realms/my-realm/protocol/openid-connect/token",
+        "JwtClientConfig:ClientId": "",
+        "JwtClientConfig:GrantType": "",
+        "JwtClientConfig:ClientSecret": "",
+        "JwtClientConfig:Scope": "",
+        "JwtServerConfig:WellKnownEndpoint": "https://my-identity-server-keycloak-example.com/auth/realms/my-realm/.well-known/openid-configuration",
+        "JwtServerConfig:AllowedScope": ""
+    }
+}
